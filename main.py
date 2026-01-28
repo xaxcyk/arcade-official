@@ -195,3 +195,7 @@ def main(): #запускает главное окно игры и меню
     menu_view = MenuView()
     window.show_view(menu_view)
     arcade.run()
+
+
+if __name__ == "__main__":
+    main()
